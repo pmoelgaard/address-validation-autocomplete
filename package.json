@@ -1,10 +1,14 @@
 {
   "name": "address-validation-autocomplete",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Real-time, International Address Validation & Autocomplete. Simple JSON API For Seamless Address Data Processing",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmoelgaard/address-validation-autocomplete.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
   },
   "keywords": [
     "address validation api",
@@ -18,7 +22,15 @@
   },
   "homepage": "https://github.com/pmoelgaard/address-validation-autocomplete#readme",
   "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
   },
   "dependencies": {
-  }
+    "async": "^1.5.2",
+    "lodash": "^4.0.1",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  },
+  "tonicExampleFilename": "example/preview.js"
 }
